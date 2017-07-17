@@ -89,10 +89,12 @@
     <div class="container">
         <!-- row -->
         <div class="row">
-            <h2>Преимущества рамки</h2>
+            <h2>Преимущества</h2>
             <div class="col-md-6">
-                <p>
-                    <img src="" alt="">
+                <p class="img col-md-4 col-sm-6 cok-xs-12">
+                    <img src="rus/img/adv1.png" alt="">
+                </p>
+                <p class="description col-md-8 col-sm-6 col-xs-12">
                     <span>УДОБНАЯ</span><br>
                     Легко устанавливается и
                     плотно прилегает к
@@ -100,35 +102,64 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <p>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam.
-                    Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore
-                    minus inventore.</p>
+                <p class="img col-md-4 col-sm-6 cok-xs-12">
+                    <img src="rus/img/adv2.png" alt="">
+                </p>
+                <p class="description col-md-8 col-sm-6 col-xs-12">
+                    <span>ТОНКАЯ</span><br>
+                    Минималистичный
+                    дизайн и аккуратные
+                    формы.
+                </p>
             </div>
         </div>
         <!-- row -->
         <div class="row">
             <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae assumenda vel facilis veritatis
-                    impedit similique nam laudantium facere itaque! Harum fuga cumque quis sed odit officiis. Itaque
-                    possimus, asperiores corporis.</p>
+                <p class="img col-md-4 col-sm-6 cok-xs-12">
+                    <img src="rus/img/adv3.png" alt="">
+                </p>
+                <p class="description col-md-8 col-sm-6 col-xs-12">
+                    <span>АНТИВАНДАЛЬНАЯ</span><br>
+                    Металическая основа и
+                    антивандальные винты против
+                    злоумышленников.
+                </p>
             </div>
             <div class="col-md-6">
-                <p>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam.
-                    Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore
-                    minus inventore.</p>
+                <p class="img col-md-4 col-sm-6 cok-xs-12">
+                    <img src="rus/img/adv4.png" alt="">
+                </p>
+                <p class="description col-md-8 col-sm-6 col-xs-12">
+                    <span>БЕЗ РЕКЛАМЫ</span><br>
+                    Никакого визуального мусора.
+                    Акцент только на вашем
+                    номере.
+                </p>
             </div>
         </div>
         <!-- row -->
         <div class="row">
             <div class="col-md-6">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae assumenda vel facilis veritatis
-                    impedit similique nam laudantium facere itaque! Harum fuga cumque quis sed odit officiis. Itaque
-                    possimus, asperiores corporis.</p>
+                <p class="img col-md-4 col-sm-6 cok-xs-12">
+                    <img src="rus/img/adv5.png" alt="">
+                </p>
+                <p class="description col-md-8 col-sm-6 col-xs-12">
+                    <span>ЦВЕТНАЯ</span><br>
+                    Большой выбор цветов
+                    под дизайн вашего
+                    автомобиля.
+                </p>
             </div>
             <div class="col-md-6">
-                <p>Delectus dolorem vero quae beatae quasi dolor deserunt iste amet atque, impedit iure placeat, ullam.
-                    Reprehenderit aliquam, nemo cum velit ratione perferendis quas, maxime, quaerat porro totam, dolore
-                    minus inventore.</p>
+                <p class="img col-md-4 col-sm-6 cok-xs-12">
+                    <img src="rus/img/adv6.png" alt="">
+                </p>
+                <p class="description col-md-8 col-sm-6 col-xs-12">
+                    <span>НАДЕЖНАЯ</span><br>
+                    Оцинкованная основа и силиконовый корпус
+                    выдержат любые дорожные и погодные условия.
+                </p>
             </div>
         </div>
     </div>

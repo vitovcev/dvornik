@@ -330,10 +330,19 @@ a:hover .ico {
 }
 /*Pluses*/
 .pluses p {
-  padding-left: 40px;
-  background: url("../img/plus.jpg") left 5px no-repeat;
+  /*padding-left: 40px;*/
+  /*background: url("../img/plus.jpg") left 5px no-repeat;*/
 }
 .pluses p span {
+}
+.pluses .img img{
+  height: 150px;
+}
+.pluses .description{
+  margin-top: 25px;
+
+}
+.pluses .description span {
   color: darkred;
   font-weight:bold;
 }
