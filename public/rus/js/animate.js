@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
             if (isInView) {$(this).addClass('animated fadeInUp delay3');}
         });
 
-          $('#scrinshots .pull-left').css('opacity', 0).one('inview', function(event, isInView) {
+          $('#scrinshots .text-center').css('opacity', 0).one('inview', function(event, isInView) {
             if (isInView) {$(this).addClass('animated fadeInLeft delay3');}
         });
 

@@ -6,24 +6,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Адапитвная лэндинговая страница</title>
+    <title>Рамки</title>
 
     <!-- Bootstrap -->
-    <link href="/rus/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/public/rus/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Animate style -->
-    <link rel="stylesheet" href="/rus/css/animate.min.css">
+    <link rel="stylesheet" href="/public/rus/css/animate.min.css">
 
     <!-- Styles for this template -->
-    <link rel="stylesheet" href="/rus/css/style.css">
+    <link rel="stylesheet" href="/public/rus/css/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="/rus/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="/rus/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="/public/rus/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="/public/rus/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="icon" href="/rus/img/favicon.ico">
+    <link rel="icon" href="/public/rus/img/favicon.ico">
 </head>
 <body>
 <!-- ***Page Preloader*** -->
@@ -45,7 +45,7 @@
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="video-wrap">
-                    <video src="/rus/video/rcs.mp4" controls="controls"></video>
+                    <video src="/public/rus/video/rcs.mp4" controls="controls"></video>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
             <h2 class="page-header">С этой рамкой Вы будете выделяться на дороге<br>
             </h2>
             <div class="col-md-8">
-                <div class="main-img"><img src="/rus/img/rcs_main3.png" class="img-responsive" alt=""></div>
+                <div class="main-img"><img src="/public/rus/img/rcs_main3.png" class="img-responsive" alt=""></div>
             </div>
             <div class="col-md-4 col-xs-12">
                 <p>
@@ -91,10 +91,10 @@
         <div class="row">
             <h2>Преимущества</h2>
             <div class="col-md-6">
-                <p class="img col-md-4 col-sm-6 cok-xs-12">
-                    <img src="rus/img/adv1.png" alt="">
+                <p class="img col-xs-12 text-center">
+                    <img src="/public/rus/img/adv1.png" alt="">
                 </p>
-                <p class="description col-md-8 col-sm-6 col-xs-12">
+                <p class="description col-xs-12 text-center">
                     <span>УДОБНАЯ</span><br>
                     Легко устанавливается и
                     плотно прилегает к
@@ -102,10 +102,10 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <p class="img col-md-4 col-sm-6 cok-xs-12">
-                    <img src="rus/img/adv2.png" alt="">
+                <p class="img col-xs-12 text-center">
+                    <img src="/public/rus/img/adv2.png" alt="">
                 </p>
-                <p class="description col-md-8 col-sm-6 col-xs-12">
+                <p class="description col-xs-12 text-center">
                     <span>ТОНКАЯ</span><br>
                     Минималистичный
                     дизайн и аккуратные
@@ -113,13 +113,12 @@
                 </p>
             </div>
         </div>
-        <!-- row -->
         <div class="row">
             <div class="col-md-6">
-                <p class="img col-md-4 col-sm-6 cok-xs-12">
-                    <img src="rus/img/adv3.png" alt="">
+                <p class="img col-xs-12 text-center">
+                    <img src="/public/rus/img/adv3.png" alt="">
                 </p>
-                <p class="description col-md-8 col-sm-6 col-xs-12">
+                <p class="description col-xs-12 text-center">
                     <span>АНТИВАНДАЛЬНАЯ</span><br>
                     Металическая основа и
                     антивандальные винты против
@@ -127,10 +126,10 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <p class="img col-md-4 col-sm-6 cok-xs-12">
-                    <img src="rus/img/adv4.png" alt="">
+                <p class="img col-xs-12 text-center">
+                    <img src="/public/rus/img/adv4.png" alt="">
                 </p>
-                <p class="description col-md-8 col-sm-6 col-xs-12">
+                <p class="description col-xs-12 text-center">
                     <span>БЕЗ РЕКЛАМЫ</span><br>
                     Никакого визуального мусора.
                     Акцент только на вашем
@@ -138,13 +137,12 @@
                 </p>
             </div>
         </div>
-        <!-- row -->
         <div class="row">
             <div class="col-md-6">
-                <p class="img col-md-4 col-sm-6 cok-xs-12">
-                    <img src="rus/img/adv5.png" alt="">
+                <p class="img col-xs-12 text-center">
+                    <img src="/public/rus/img/adv5.png" alt="">
                 </p>
-                <p class="description col-md-8 col-sm-6 col-xs-12">
+                <p class="description col-xs-12 text-center">
                     <span>ЦВЕТНАЯ</span><br>
                     Большой выбор цветов
                     под дизайн вашего
@@ -152,10 +150,10 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <p class="img col-md-4 col-sm-6 cok-xs-12">
-                    <img src="rus/img/adv6.png" alt="">
+                <p class="img col-xs-12 text-center">
+                    <img src="/public/rus/img/adv6.png" alt="">
                 </p>
-                <p class="description col-md-8 col-sm-6 col-xs-12">
+                <p class="description col-xs-12 text-center">
                     <span>НАДЕЖНАЯ</span><br>
                     Оцинкованная основа и силиконовый корпус
                     выдержат любые дорожные и погодные условия.
@@ -174,52 +172,28 @@
             <h2>Скриншоты</h2>
             <div class="col-md-6">
                 <div class="media">
-                    <div class="pull-left"><img src="/rus/img/img1.jpg" alt=""></div>
-                    <div class="media-body">
-                        <h3>Описание для изображения</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero reiciendis possimus eligendi
-                            molestias! Omnis assumenda quas reiciendis fugit iste esse quis accusantium laborum, at
-                            minus, nulla nihil magnam in distinctio.</p>
-                    </div>
+                    <div class="text-center"><img src="/public/rus/img/scr1.jpg" alt=""></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="media">
-                    <div class="pull-left"><img src="/rus/img/img2.jpg" alt=""></div>
-                    <div class="media-body">
-                        <h3>Описание для изображения</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero reiciendis possimus eligendi
-                            molestias! Omnis assumenda quas reiciendis fugit iste esse quis accusantium laborum, at
-                            minus, nulla nihil magnam in distinctio.</p>
-                    </div>
+                    <div class="text-center"><img src="/public/rus/img/scr3.jpg" alt=""></div>
                 </div>
             </div>
         </div>
-        <!-- row -->
         <div class="row">
             <div class="col-md-6">
                 <div class="media">
-                    <div class="pull-left"><img src="/rus/img/img3.jpg" alt=""></div>
-                    <div class="media-body">
-                        <h3>Описание для изображения</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero reiciendis possimus eligendi
-                            molestias! Omnis assumenda quas reiciendis fugit iste esse quis accusantium laborum, at
-                            minus, nulla nihil magnam in distinctio.</p>
-                    </div>
+                    <div class="text-center"><img src="/public/rus/img/scr4.jpg" alt=""></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="media">
-                    <div class="pull-left"><img src="/rus/img/img4.jpg" alt=""></div>
-                    <div class="media-body">
-                        <h3>Описание для изображения</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero reiciendis possimus eligendi
-                            molestias! Omnis assumenda quas reiciendis fugit iste esse quis accusantium laborum, at
-                            minus, nulla nihil magnam in distinctio.</p>
-                    </div>
+                    <div class="text-center"><img src="/public/rus/img/scr6.jpg" alt=""></div>
                 </div>
             </div>
         </div>
+
     </div>
 </section>
 <!-- //scrinshots -->
@@ -232,12 +206,12 @@
             <h2>Отзывы</h2>
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"></div>
+                    <div class="pull-left ava"><img src="/public/rus/img/ava1.jpg" alt=""></div>
                     <div class="review-body">
                         <blockquote>
-                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia
-                            doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis
-                            sapiente necessitatibus commodi consectetur?
+                            Актуальная штука, в связи с участившимися кражами госномеров, но...Ну что можно сказать?
+                            Сделаны рамки добротно, хорошо и красиво упакованы, без проблем устанавливаются на
+                            автомобиль, практически не заметны и не бликуют, вне зависимости от цвета кузова машины.
                         </blockquote>
                         <p class="text-muted">Андрей И.</p>
                     </div>
@@ -246,14 +220,15 @@
 
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="/rus/img/img2.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="/public/rus/img/ava2.jpg" alt=""></div>
                     <div class="review-body">
                         <blockquote>
-                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia
-                            doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis
-                            sapiente necessitatibus commodi consectetur?
+                            Муж подарил мне автомобиль на день рождения, и меня сразу начала раздражать рамка на
+                            номерном знаке – с рекламой автоцентра. Поэтому я заказала рамку от RCS. Оказалось то, что
+                            надо – никакого мусора, и выбранный цвет – красный – идеально вписался в расцветку моего
+                            авто. Красота!
                         </blockquote>
-                        <p class="text-muted">Андрей И.</p>
+                        <p class="text-muted">Ирина Б.</p>
                     </div>
                 </div>
             </div>
@@ -262,27 +237,29 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="/rus/img/img3.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="/public/rus/img/ava3.jpg" alt=""></div>
                     <div class="review-body">
                         <blockquote>
-                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia
-                            doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis
-                            sapiente necessitatibus commodi consectetur?
+                            В том году у меня украли автомобильный номер. Пришлось заплатить воришкам за возврат…
+                            Заказал сразу же рамку RCS – ее шпилькой точно не открутишь – антивандальные винты, стальная
+                            основа, силиконовый корпус. Теперь спокоен! И дороги наши выдержит, и злоумышленникам шансов
+                            не оставит.
                         </blockquote>
-                        <p class="text-muted">Андрей И.</p>
+                        <p class="text-muted">Константин С.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="/rus/img/img1.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="/public/rus/img/ava4.jpg" alt=""></div>
                     <div class="review-body">
                         <blockquote>
-                            Porro officia cumque sint deleniti nemo facere rem vitae odit inventore cum odio, iste quia
-                            doloribus autem aperiam nulla ea neque reprehenderit. Libero doloribus, possimus officiis
-                            sapiente necessitatibus commodi consectetur?
+                            У меня свой бизнес, и обращать внимание на детали - моя привычка. Рамка от RCS нравится
+                            своим лаконичным дизайном - стильно, аккуратно. Видно, что не кустарная работа. Заказал
+                            доставку курьером, а установил сам - дело 5 минут, все винты и саморез уже включены в
+                            комплект. В общем, я доволен. Рекомендую!
                         </blockquote>
-                        <p class="text-muted">Андрей И.</p>
+                        <p class="text-muted">Сергей И.</p>
                     </div>
                 </div>
             </div>
@@ -299,18 +276,98 @@
             <h2>Оформить заказ<br>
                 <small>просто, быстро, удобно...</small>
             </h2>
-            <p class="lead text-center">Расскажите о способах оплаты, доставки, о гарантиях и т.д.</p>
+            {{--<p class="lead text-center">Расскажите о способах оплаты, доставки, о гарантиях и т.д.</p>--}}
             <!--standart-->
             <div class="col-md-4 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Стандарт<br><span>100 руб.</span></h3>
+                        <h3>Рамка1<br><span>1500 руб.</span></h3>
                     </div>
                     <div class="body">
                         <ol>
-                            <li>Porro officia cumque sint deleniti;</li>
-                            <li>Тemo facere rem vitae odit;</li>
-                            <li>Cum odio, iste quia doloribus autem;</li>
+                            <li>Металл</li>
+                            <li>Силикон</li>
+                            <li>Красная</li>
+                        </ol>
+                        <a href="" class="btn btn-block btn-default"><span
+                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="price standart">
+                    <div class="head">
+                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                    </div>
+                    <div class="body">
+                        <ol>
+                            <li>Металл</li>
+                            <li>Силикон</li>
+                            <li>Красная</li>
+                        </ol>
+                        <a href="" class="btn btn-block btn-default"><span
+                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="price standart">
+                    <div class="head">
+                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                    </div>
+                    <div class="body">
+                        <ol>
+                            <li>Металл</li>
+                            <li>Силикон</li>
+                            <li>Красная</li>
+                        </ol>
+                        <a href="" class="btn btn-block btn-default"><span
+                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="price standart">
+                    <div class="head">
+                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                    </div>
+                    <div class="body">
+                        <ol>
+                            <li>Металл</li>
+                            <li>Силикон</li>
+                            <li>Красная</li>
+                        </ol>
+                        <a href="" class="btn btn-block btn-default"><span
+                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="price standart">
+                    <div class="head">
+                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                    </div>
+                    <div class="body">
+                        <ol>
+                            <li>Металл</li>
+                            <li>Силикон</li>
+                            <li>Красная</li>
+                        </ol>
+                        <a href="" class="btn btn-block btn-default"><span
+                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="price standart">
+                    <div class="head">
+                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                    </div>
+                    <div class="body">
+                        <ol>
+                            <li>Металл</li>
+                            <li>Силикон</li>
+                            <li>Красная</li>
                         </ol>
                         <a href="" class="btn btn-block btn-default"><span
                                     class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
@@ -318,47 +375,47 @@
                 </div>
             </div>
 
-            <!--premium-->
-            <div class="col-md-4 col-xs-12">
-                <div class="price premium">
-                    <div class="head">
-                        <h3>Премиум<br><span>150 руб.</span></h3>
-                    </div>
-                    <div class="body">
-                        <ol>
-                            <li>Porro officia cumque sint deleniti;</li>
-                            <li>Тemo facere rem vitae odit;</li>
-                            <li>Cum odio, iste quia doloribus autem;</li>
-                            <li>Porro officia cumque sint deleniti;</li>
-                            <li>Тemo facere rem vitae odit;</li>
-                        </ol>
-                        <a href="" class="btn btn-block btn-default"><span
-                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
-                    </div>
-                </div>
-            </div>
+            {{--<!--premium-->--}}
+            {{--<div class="col-md-4 col-xs-12">--}}
+                {{--<div class="price premium">--}}
+                    {{--<div class="head">--}}
+                        {{--<h3>Премиум<br><span>150 руб.</span></h3>--}}
+                    {{--</div>--}}
+                    {{--<div class="body">--}}
+                        {{--<ol>--}}
+                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+                            {{--<li>Тemo facere rem vitae odit;</li>--}}
+                            {{--<li>Cum odio, iste quia doloribus autem;</li>--}}
+                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+                            {{--<li>Тemo facere rem vitae odit;</li>--}}
+                        {{--</ol>--}}
+                        {{--<a href="" class="btn btn-block btn-default"><span--}}
+                                    {{--class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
 
-            <!--lux-->
-            <div class="col-md-4 col-xs-12">
-                <div class="price lux">
-                    <div class="head">
-                        <h3>Люкс<br><span>200 руб.</span></h3>
-                    </div>
-                    <div class="body">
-                        <ol>
-                            <li>Porro officia cumque sint deleniti;</li>
-                            <li>Тemo facere rem vitae odit;</li>
-                            <li>Cum odio, iste quia doloribus autem;</li>
-                            <li>Porro officia cumque sint deleniti;</li>
-                            <li>Тemo facere rem vitae odit;</li>
-                            <li>Cum odio, iste quia doloribus autem;</li>
-                            <li>Porro officia cumque sint deleniti;</li>
-                        </ol>
-                        <a href="" class="btn btn-block btn-default"><span
-                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
-                    </div>
-                </div>
-            </div>
+            {{--<!--lux-->--}}
+            {{--<div class="col-md-4 col-xs-12">--}}
+                {{--<div class="price lux">--}}
+                    {{--<div class="head">--}}
+                        {{--<h3>Люкс<br><span>200 руб.</span></h3>--}}
+                    {{--</div>--}}
+                    {{--<div class="body">--}}
+                        {{--<ol>--}}
+                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+                            {{--<li>Тemo facere rem vitae odit;</li>--}}
+                            {{--<li>Cum odio, iste quia doloribus autem;</li>--}}
+                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+                            {{--<li>Тemo facere rem vitae odit;</li>--}}
+                            {{--<li>Cum odio, iste quia doloribus autem;</li>--}}
+                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+                        {{--</ol>--}}
+                        {{--<a href="" class="btn btn-block btn-default"><span--}}
+                                    {{--class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div>--}}
         </div>
     </div>
 </section>
@@ -415,8 +472,7 @@
                 <div class="col-md-6 col-xs-6 col-sm-6 text-right">
                     <address>
                         <strong>Адрес:</strong><br>
-                        795 Folsom Ave, Suite 600<br>
-                        San Francisco, CA 94107<br>
+                        Москва<br>
                         <abbr title="Телефон">Т:</abbr> (123) 456-7890
                     </address>
                 </div>
@@ -426,7 +482,6 @@
                         <strong>Другие контакты:</strong><br>
                         <abbr title="Email">E:</abbr> <a href="mailto:#">first.last@example.com</a><br>
                         <abbr title="Skype">S:</abbr> <a href="skype:#">login_skype</a><br>
-                        <abbr title="ICQ">I:</abbr> <a href="icq:#">279679569</a>
                     </address>
                 </div>
             </div>
@@ -454,8 +509,7 @@
                     <a href=""><i class="ico">v</i></a>
                 </p>
                 <br>
-                <p class="text-center">Copyright &copy; 2014 Product name · <a href="http://psd-html-css.ru">PSD HTML
-                        CSS</a></p>
+                <p class="text-center">Copyright &copy; {{ \Carbon\Carbon::now()->format('Y') }} Рамки · <a href="">Рамки</a></p>
             </div>
         </div>
     </div>
@@ -464,10 +518,10 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/rus/js/jquery.inview.js"></script>
-<script src="/rus/js/detectmobilebrowser.js"></script>
-<script src="/rus/js/jquery.placeholder.js"></script>
-<script src="/rus/js/js.js"></script>
+<script src="/public/rus/js/jquery.inview.js"></script>
+<script src="/public/rus/js/detectmobilebrowser.js"></script>
+<script src="/public/rus/js/jquery.placeholder.js"></script>
+<script src="/public/rus/js/js.js"></script>
 <script>
     $(window).on('load', function () {
         var $preloader = $('#page-preloader'),
@@ -477,7 +531,7 @@
     });
 </script>
 <!--[if !IE]>-->
-<script src="/rus/js/animate.js"></script>
+<script src="/public/rus/js/animate.js"></script>
 <!--<![endif]-->
 </body>
 </html>

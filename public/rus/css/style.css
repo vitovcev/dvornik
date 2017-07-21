@@ -348,15 +348,13 @@ a:hover .ico {
 }
 
 /*Scrinshots*/
-.scrinshots .media .pull-left {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  display: block;
+.scrinshots .media .text-center {
 }
 
-.scrinshots .media .pull-left>img {
-  width: 100px;
+.scrinshots .media .text-center img {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 250px;
   height: auto;
   border-radius: 5px;
 }
@@ -435,7 +433,7 @@ a:hover .ico {
 .buy .price .head h3 span {
   font-size: 20px;
 }
-
+å
 .buy .price .body {
   font-size: 14px;
   padding: 15px;
@@ -534,8 +532,8 @@ a:hover .ico {
     margin-bottom: 15px;
   }
 
-  .scrinshots .media .pull-left>img {
-    width: 200px;
+  .scrinshots .media .text-center>img {
+    width: 400px;
   }
 
   .buy .price .head {
