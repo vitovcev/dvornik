@@ -9,7 +9,7 @@
     <title>Рамки</title>
 
     <!-- Bootstrap -->
-    <link href="/public/rus/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../rus/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Animate style -->
     <link rel="stylesheet" href="/public/rus/css/animate.min.css">
