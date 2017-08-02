@@ -592,14 +592,5 @@
 <!--[if !IE]>-->
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/animate.js"></script>
 <!--<![endif]-->
-
-<script>
-    $('#basket').on('show.bs.modal', function (event) {
-        var button = $(event.relatedTarget);
-        var recipient = button.data('whatever');
-        var modal = $(this);
-        modal.find('.order').text('Ваш заказ: рамка RCS ' + recipient);
-    })
-</script>
 </body>
 </html>

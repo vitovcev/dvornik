@@ -1,7 +1,5 @@
 jQuery(document).ready(function($) {
 
-	alert(123);
-
     // jQuery placeholder
     $("input, textarea").placeholder();
 
@@ -14,7 +12,6 @@ jQuery(document).ready(function($) {
 	});
 
     $('#basket').on('show.bs.modal', function (event) {
-    	console.log(123);
         var button = $(event.relatedTarget);
         var recipient = button.data('whatever');
         var modal = $(this);
