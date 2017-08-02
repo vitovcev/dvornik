@@ -12,18 +12,18 @@
     <link href="{{!App::environment('local')?'/public':''}}/rus/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Animate style -->
-    <link rel="stylesheet" href="/public/rus/css/animate.min.css">
+    <link rel="stylesheet" href="{{!App::environment('local')?'/public':''}}/rus/css/animate.min.css">
 
     <!-- Styles for this template -->
-    <link rel="stylesheet" href="/public/rus/css/style.css">
+    <link rel="stylesheet" href="{{!App::environment('local')?'/public':''}}/rus/css/style.css">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-    <script src="/public/rus/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="/public/rus/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <script src="{{!App::environment('local')?'/public':''}}/rus/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="{{!App::environment('local')?'/public':''}}/rus/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="icon" href="/public/rus/img/favicon.ico">
+    <link rel="icon" href="{{!App::environment('local')?'/public':''}}/rus/img/favicon.ico">
 </head>
 <body>
 <!-- ***Page Preloader*** -->
@@ -45,7 +45,7 @@
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="video-wrap">
-                    <video src="/public/rus/video/RCS.mp4" controls="controls"></video>
+                    <video src="{{!App::environment('local')?'/public':''}}/rus/video/RCS.mp4" controls="controls"></video>
                 </div>
             </div>
         </div>
@@ -61,7 +61,7 @@
             <h2 class="page-header">С этой рамкой Вы будете выделяться на дороге<br>
             </h2>
             <div class="col-md-8">
-                <div class="main-img"><img src="/public/rus/img/rcs_main3.png" class="img-responsive" alt=""></div>
+                <div class="main-img"><img src="{{!App::environment('local')?'/public':''}}/rus/img/rcs_main3.png" class="img-responsive" alt=""></div>
             </div>
             <div class="col-md-4 col-xs-12">
                 <p>
@@ -92,7 +92,7 @@
             <h2>Преимущества</h2>
             <div class="col-md-6">
                 <p class="img col-xs-12 text-center">
-                    <img src="/public/rus/img/adv1.png" alt="">
+                    <img src="{{!App::environment('local')?'/public':''}}/rus/img/adv1.png" alt="">
                 </p>
                 <p class="description col-xs-12 text-center">
                     <span>УДОБНАЯ</span><br>
@@ -103,7 +103,7 @@
             </div>
             <div class="col-md-6">
                 <p class="img col-xs-12 text-center">
-                    <img src="/public/rus/img/adv2.png" alt="">
+                    <img src="{{!App::environment('local')?'/public':''}}/rus/img/adv2.png" alt="">
                 </p>
                 <p class="description col-xs-12 text-center">
                     <span>ТОНКАЯ</span><br>
@@ -116,7 +116,7 @@
         <div class="row">
             <div class="col-md-6">
                 <p class="img col-xs-12 text-center">
-                    <img src="/public/rus/img/adv3.png" alt="">
+                    <img src="{{!App::environment('local')?'/public':''}}/rus/img/adv3.png" alt="">
                 </p>
                 <p class="description col-xs-12 text-center">
                     <span>АНТИВАНДАЛЬНАЯ</span><br>
@@ -127,7 +127,7 @@
             </div>
             <div class="col-md-6">
                 <p class="img col-xs-12 text-center">
-                    <img src="/public/rus/img/adv4.png" alt="">
+                    <img src="{{!App::environment('local')?'/public':''}}/rus/img/adv4.png" alt="">
                 </p>
                 <p class="description col-xs-12 text-center">
                     <span>БЕЗ РЕКЛАМЫ</span><br>
@@ -140,7 +140,7 @@
         <div class="row">
             <div class="col-md-6">
                 <p class="img col-xs-12 text-center">
-                    <img src="/public/rus/img/adv5.png" alt="">
+                    <img src="{{!App::environment('local')?'/public':''}}/rus/img/adv5.png" alt="">
                 </p>
                 <p class="description col-xs-12 text-center">
                     <span>ЦВЕТНАЯ</span><br>
@@ -151,7 +151,7 @@
             </div>
             <div class="col-md-6">
                 <p class="img col-xs-12 text-center">
-                    <img src="/public/rus/img/adv6.png" alt="">
+                    <img src="{{!App::environment('local')?'/public':''}}/rus/img/adv6.png" alt="">
                 </p>
                 <p class="description col-xs-12 text-center">
                     <span>НАДЕЖНАЯ</span><br>
@@ -172,24 +172,24 @@
             <h2>Скриншоты</h2>
             <div class="col-md-6">
                 <div class="media">
-                    <div class="text-center"><img src="/public/rus/img/scr1.jpg" alt=""></div>
+                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr1.jpg" alt=""></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="media">
-                    <div class="text-center"><img src="/public/rus/img/scr3.jpg" alt=""></div>
+                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr3.jpg" alt=""></div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
                 <div class="media">
-                    <div class="text-center"><img src="/public/rus/img/scr4.jpg" alt=""></div>
+                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr4.jpg" alt=""></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="media">
-                    <div class="text-center"><img src="/public/rus/img/scr6.jpg" alt=""></div>
+                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr6.jpg" alt=""></div>
                 </div>
             </div>
         </div>
@@ -206,7 +206,7 @@
             <h2>Отзывы</h2>
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="/public/rus/img/ava1.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava1.jpg" alt=""></div>
                     <div class="review-body">
                         <blockquote>
                             Актуальная штука, в связи с участившимися кражами госномеров, но...Ну что можно сказать?
@@ -220,7 +220,7 @@
 
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="/public/rus/img/ava2.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava2.jpg" alt=""></div>
                     <div class="review-body">
                         <blockquote>
                             Муж подарил мне автомобиль на день рождения, и меня сразу начала раздражать рамка на
@@ -237,7 +237,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="/public/rus/img/ava3.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava3.jpg" alt=""></div>
                     <div class="review-body">
                         <blockquote>
                             В том году у меня украли автомобильный номер. Пришлось заплатить воришкам за возврат…
@@ -251,7 +251,7 @@
             </div>
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="/public/rus/img/ava4.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava4.jpg" alt=""></div>
                     <div class="review-body">
                         <blockquote>
                             У меня свой бизнес, и обращать внимание на детали - моя привычка. Рамка от RCS нравится
@@ -518,10 +518,10 @@
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="/public/rus/js/jquery.inview.js"></script>
-<script src="/public/rus/js/detectmobilebrowser.js"></script>
-<script src="/public/rus/js/jquery.placeholder.js"></script>
-<script src="/public/rus/js/js.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.inview.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/rus/js/detectmobilebrowser.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.placeholder.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/rus/js/js.js"></script>
 <script>
     $(window).on('load', function () {
         var $preloader = $('#page-preloader'),
@@ -531,7 +531,7 @@
     });
 </script>
 <!--[if !IE]>-->
-<script src="/public/rus/js/animate.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/rus/js/animate.js"></script>
 <!--<![endif]-->
 </body>
 </html>
