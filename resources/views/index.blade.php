@@ -33,6 +33,7 @@
 <section id="presentation" class="presentation section">
     <div class="container">
         <div class="row">
+            test
             <div class="col-md-6 col-xs-12">
                 <h1>В рамках прекрасного</h1>
                 <ul class="check-list list-unstyled">
