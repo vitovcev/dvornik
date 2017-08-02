@@ -45,7 +45,7 @@
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="video-wrap">
-                    <video src="/public/rus/video/rcs.mp4" controls="controls"></video>
+                    <video src="/public/rus/video/RCS.mp4" controls="controls"></video>
                 </div>
             </div>
         </div>
