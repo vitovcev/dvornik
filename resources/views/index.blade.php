@@ -475,19 +475,19 @@
                 </form>
                 <br>
                 <!-- Address -->
-                <div class="col-md-6 col-xs-6 col-sm-6 text-right">
-                    <address>
-                        <strong>Адрес:</strong><br>
-                        Москва<br>
-                        <abbr title="Телефон">Т:</abbr> (123) 456-7890
-                    </address>
-                </div>
+                {{--<div class="col-md-6 col-xs-6 col-sm-6 text-right">--}}
+                    {{--<address>--}}
+                        {{--<strong>Адрес:</strong><br>--}}
+                        {{--Москва<br>--}}
+                        {{--<abbr title="Телефон">Т:</abbr> +7 (913) 333-3308--}}
+                    {{--</address>--}}
+                {{--</div>--}}
                 <!-- Contacts -->
-                <div class="col-md-6 col-xs-6 col-sm-6 text-left">
+                <div class=" col-xs-12 text-center">
                     <address>
                         <strong>Другие контакты:</strong><br>
-                        <abbr title="Email">E:</abbr> <a href="mailto:#">first.last@example.com</a><br>
-                        <abbr title="Skype">S:</abbr> <a href="skype:#">login_skype</a><br>
+                        <abbr title="Email">E:</abbr> <a href="mailto:#">support@my-ramka.ru</a><br>
+                        {{--<abbr title="Skype">S:</abbr> <a href="skype:#">login_skype</a><br>--}}
                     </address>
                 </div>
             </div>
