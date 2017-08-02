@@ -443,6 +443,16 @@ a:hover .ico {
   border-radius: 0 0 5px 5px;
 }
 
+.buy .price img {
+    width: 100%;
+}
+.buy .price ol {
+    list-style: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+}
+
 /*Contacts*/
 .contacts {
   background: url("../img/bg-contacts.jpg") repeat;

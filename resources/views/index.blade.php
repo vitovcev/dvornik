@@ -9,7 +9,7 @@
     <title>Рамки</title>
 
     <!-- Bootstrap -->
-    <link href="{{!App::environment('local')?'/public':''}}/rus/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Animate style -->
     <link rel="stylesheet" href="{{!App::environment('local')?'/public':''}}/rus/css/animate.min.css">
@@ -281,96 +281,102 @@
             <div class="col-md-4 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                        <h3>Черная<br><span>1500 руб.</span></h3>
                     </div>
                     <div class="body">
-                        <ol>
-                            <li>Металл</li>
-                            <li>Силикон</li>
-                            <li>Красная</li>
-                        </ol>
-                        <a href="" class="btn btn-block btn-default"><span
-                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_black.png" alt="">
+                        <button class="btn btn-block btn-default"
+                                data-toggle="modal"
+                                data-target="#basket"
+                                data-whatever="Черная">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                        <h3>Синяя<br><span>1500 руб.</span></h3>
                     </div>
                     <div class="body">
-                        <ol>
-                            <li>Металл</li>
-                            <li>Силикон</li>
-                            <li>Красная</li>
-                        </ol>
-                        <a href="" class="btn btn-block btn-default"><span
-                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_blue.png" alt="">
+                        <button class="btn btn-block btn-default"
+                                data-toggle="modal"
+                                data-target="#basket"
+                                data-whatever="Синяя">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                        <h3>Серая<br><span>1500 руб.</span></h3>
                     </div>
                     <div class="body">
-                        <ol>
-                            <li>Металл</li>
-                            <li>Силикон</li>
-                            <li>Красная</li>
-                        </ol>
-                        <a href="" class="btn btn-block btn-default"><span
-                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_gray.png" alt="">
+                        <button class="btn btn-block btn-default"
+                                data-toggle="modal"
+                                data-target="#basket"
+                                data-whatever="Серая">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                        <h3>Красная<br><span>1500 руб.</span></h3>
                     </div>
                     <div class="body">
-                        <ol>
-                            <li>Металл</li>
-                            <li>Силикон</li>
-                            <li>Красная</li>
-                        </ol>
-                        <a href="" class="btn btn-block btn-default"><span
-                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_red.png" alt="">
+                        <button class="btn btn-block btn-default"
+                                data-toggle="modal"
+                                data-target="#basket"
+                                data-whatever="Красная">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                        <h3>белая<br><span>1500 руб.</span></h3>
                     </div>
                     <div class="body">
-                        <ol>
-                            <li>Металл</li>
-                            <li>Силикон</li>
-                            <li>Красная</li>
-                        </ol>
-                        <a href="" class="btn btn-block btn-default"><span
-                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_white.png" alt="">
+                        <button class="btn btn-block btn-default"
+                                data-toggle="modal"
+                                data-target="#basket"
+                                data-whatever="Белая">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Рамка1<br><span>1500 руб.</span></h3>
+                        <h3>Желтая<br><span>1500 руб.</span></h3>
                     </div>
                     <div class="body">
-                        <ol>
-                            <li>Металл</li>
-                            <li>Силикон</li>
-                            <li>Красная</li>
-                        </ol>
-                        <a href="" class="btn btn-block btn-default"><span
-                                    class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>
+                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_yellow.png" alt="">
+                        <button class="btn btn-block btn-default"
+                                data-toggle="modal"
+                                data-target="#basket"
+                                data-whatever="Желтая">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
@@ -516,8 +522,61 @@
 </footer>
 <!-- //footer -->
 
+<!-- ***MODAL*** -->
+<div class="modal fade" id="basket" tabindex="-1" role="dialog" aria-labelledby="basketLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Корзина</h4>
+            </div>
+            <form class="form-horizontal">
+
+                <div class="modal-body">
+                    <div class="order">
+                        Ваш заказ: рамка RCS
+                    </div>
+                    <div class="count">
+                        <div class="form-group">
+                            <label for="count" class="col-sm-2 control-label">Количество</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="count" placeholder="Количество" value="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fio">
+                        <div class="form-group">
+                            <label for="lastName" class="col-sm-2 control-label">Фамилия</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="lastName" placeholder="Фамилия">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="firstName" class="col-sm-2 control-label">Имя</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="firstName" placeholder="Имя">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="col-sm-2 control-label">Телефон</label>
+                            <div class="col-sm-10">
+                                <input type="text" class="form-control" id="phone" placeholder="Телефон">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Отправить заказ</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- //modal -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.inview.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/detectmobilebrowser.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.placeholder.js"></script>
@@ -533,5 +592,14 @@
 <!--[if !IE]>-->
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/animate.js"></script>
 <!--<![endif]-->
+
+<script>
+    $('#basket').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget);
+        var recipient = button.data('whatever');
+        var modal = $(this);
+        modal.find('.order').text('Ваш заказ: рамка RCS ' + recipient);
+    })
+</script>
 </body>
 </html>
