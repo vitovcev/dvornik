@@ -1,2 +1,6 @@
 body {
-  background-color: #fff; }
+  background-color: red; }
+
+p {
+  margin-top: 10px;
+  margin-bottom: 10px; }
