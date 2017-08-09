@@ -580,15 +580,12 @@
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.inview.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/detectmobilebrowser.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.placeholder.js"></script>
-<script src="/js/inputmask/dist/inputmask/inputmask.js"></script>
-<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.extensions.js"></script>
-<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.numeric.extensions.js"></script>
-<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.date.extensions.js"></script>
-<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.phone.extensions.js"></script>
-<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/jquery.inputmask.js"></script>
-<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/phone-codes/phone.js"></script>
-<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/phone-codes/phone-be.js"></script>
-<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/phone-codes/phone-ru.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/inputmask.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/inputmask.extensions.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/inputmask.numeric.extensions.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/inputmask.date.extensions.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/inputmask.phone.extensions.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/jquery.inputmask.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/js.js"></script>
 <script>
     $(window).on('load', function () {
