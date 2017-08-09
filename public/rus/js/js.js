@@ -16,6 +16,25 @@ jQuery(document).ready(function($) {
         var recipient = button.data('whatever');
         var modal = $(this);
         modal.find('.order').text('Ваш заказ: рамка RCS ' + recipient);
-    })
+    });
+
+    $('.phone-mask').inputmask('+7 (999) 999-99-99');
+
+    $('.email-mask').inputmask({
+        mask: "*{1,20}[.*{1,20}][.*{1,20}][.*{1,20}]@*{1,20}[.*{2,6}][.*{1,2}]",
+        greedy: false,
+        onBeforePaste: function (pastedValue, opts) {
+            pastedValue = pastedValue.toLowerCase();
+            return pastedValue.replace("mailto:", "");
+        },
+        definitions: {
+            '*': {
+                validator: "[0-9A-Za-z!#$%&'*+/=?^_`{|}~\-]",
+                cardinality: 1,
+                casing: "lower"
+            }
+        }
+    });
+    $('.email-mask').inputmask({ alias: "email"})
 
 });

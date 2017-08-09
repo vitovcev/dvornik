@@ -437,10 +437,10 @@
             <div class="col-md-6 col-md-offset-3 col-xs-12">
                 <!-- Subscribe form -->
                 <form role="form" class="form-inline subscribe-form">
-                    <div class="form-group"><input id="subs_email" type="email" class="form-control"
+                    <div class="form-group"><input id="subs_email" class="form-control email-mask"
                                                    placeholder="Ваш email:"></div>
                     <div class="form-group">
-                        <button id="subs_btn" type="submit" class="btn btn-danger">Подписаться</button>
+                        <button id="subs_btn" class="btn btn-danger">Подписаться</button>
                     </div>
                 </form>
             </div>
@@ -461,16 +461,16 @@
                 <!-- Contacts form -->
                 <form role="form" class="contacts-form">
                     <div class="form-group">
-                        <input id="name" type="text" class="form-control" placeholder="Ваше имя:">
+                        <input id="name" class="form-control" placeholder="Ваше имя:">
                     </div>
                     <div class="form-group">
-                        <input id="email" type="email" class="form-control" placeholder="Ваш email:">
+                        <input id="email" class="form-control email-mask" placeholder="Ваш email:">
                     </div>
                     <div class="form-group">
                         <textarea id="message" class="form-control" rows="5" placeholder="Ваше сообщение:"></textarea>
                     </div>
                     <div class="form-group">
-                        <button id="btn" class="btn btn-default" type="submit">Отправить</button>
+                        <button id="btn" class="btn btn-default" >Отправить</button>
                     </div>
                 </form>
                 <br>
@@ -548,19 +548,19 @@
                         <div class="form-group">
                             <label for="lastName" class="col-sm-2 control-label">Фамилия</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="lastName" placeholder="Фамилия">
+                                <input class="form-control" id="lastName" placeholder="Фамилия">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="firstName" class="col-sm-2 control-label">Имя</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="firstName" placeholder="Имя">
+                                <input class="form-control" id="firstName" placeholder="Имя">
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="phone" class="col-sm-2 control-label">Телефон</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="phone" placeholder="Телефон">
+                                <input class="form-control phone-mask" id="phone" placeholder="Телефон">
                             </div>
                         </div>
                     </div>
@@ -580,6 +580,15 @@
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.inview.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/detectmobilebrowser.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.placeholder.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.extensions.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.numeric.extensions.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.date.extensions.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.phone.extensions.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/jquery.inputmask.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/phone-codes/phone.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/phone-codes/phone-be.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/phone-codes/phone-ru.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/js.js"></script>
 <script>
     $(window).on('load', function () {
