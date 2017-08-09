@@ -580,7 +580,7 @@
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.inview.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/detectmobilebrowser.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.placeholder.js"></script>
-<script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.js"></script>
+<script src="/js/inputmask/dist/inputmask/inputmask.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.extensions.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.numeric.extensions.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/js/inputmask/dist/inputmask/inputmask.date.extensions.js"></script>
