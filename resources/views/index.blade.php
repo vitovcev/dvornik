@@ -558,7 +558,7 @@
             </div>
             <form class="form-horizontal" method="post" action="{{ route('ramka.buy') }}">
                 {{ csrf_field() }}
-                <input type="hidden" name="recipient" name="recipient" value="">
+                <input type="hidden" name="recipient" value="">
                 <div class="modal-body">
                     <div class="order">
                         Ваш заказ:

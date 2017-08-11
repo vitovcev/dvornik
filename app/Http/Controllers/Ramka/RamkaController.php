@@ -20,4 +20,9 @@ class RamkaController extends Controller
         return redirect()->back();
 
     }
+
+    public function test()
+    {
+        dd(123);
+    }
 }
