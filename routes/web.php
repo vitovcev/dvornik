@@ -19,5 +19,5 @@ Route::get('/parser', 'Parser\ParserController@index')->name('parser');
 
 Route::post('/ramka/buy', 'Ramka\RamkaController@buy')->name('ramka.buy');
 
-Route::post('/test', 'Ramka\RamkaController@test');
+Route::get('/test', 'Ramka\RamkaController@test');
 
