@@ -15,7 +15,72 @@ jQuery(document).ready(function($) {
         var button = $(event.relatedTarget);
         var recipient = button.data('whatever');
         var modal = $(this);
-        modal.find('.order').text('Ваш заказ: рамка RCS ' + recipient);
+        var count = $('#count');
+        $('.recipient').val(recipient);
+
+        if (recipient == 'ramka') {
+            $('.color').show();
+            count.val(1);
+            var color = $('#color');
+            color.on('change input', function () {
+                var val = color.val();
+                var name;
+                if (val == 'black'){
+                    name = 'Черная'
+                }else if (val == 'white'){
+                    name = 'белая'
+                }else if (val == 'yellow'){
+                    name = 'желтая'
+                }else if (val == 'red'){
+                    name = 'красная'
+                }else if (val == 'blue'){
+                    name = 'синяя'
+                }else if (val == 'gray'){
+                    name = 'серая'
+                }
+                modal.find('.order').text('Ваш заказ: Силиконовая рамка RCS '  + name );
+            });
+            modal.find('.order').text('Ваш заказ: Силиконовая рамка RCS');
+            count.on('change input', function () {
+                var price = 1390 * count.val();
+                modal.find('.price').text(price);
+
+            });
+            modal.find('.price').text('1390');
+        }
+        else if (recipient == 'light') {
+            $('.color').hide();
+            count.val(1);
+            modal.find('.order').text('Ваш заказ: Пластиковая рамка RCS-light');
+            count.on('change input', function () {
+                var price = 890 * count.val();
+                modal.find('.price').text(price);
+
+            });
+            modal.find('.price').text('890');
+        }
+        else if (recipient == 'magnit') {
+            $('.color').hide();
+            count.val(1);
+            modal.find('.order').text('Ваш заказ: Магнитный набор');
+            count.on('change input', function () {
+                var price = 1790 * count.val();
+                modal.find('.price').text(price);
+
+            });
+            modal.find('.price').text('1790');
+        }
+        else if (recipient == 'vint') {
+            $('.color').hide();
+            count.val(1);
+            modal.find('.order').text('Ваш заказ: Набор винтов для крепления рамки');
+            count.on('change input', function () {
+                var price = 1790 * count.val();
+                modal.find('.price').text(price);
+
+            });
+            modal.find('.price').text('1790');
+        }
     });
 
     $('.phone-mask').inputmask('+7 (999) 999-99-99');

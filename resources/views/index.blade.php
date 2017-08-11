@@ -556,17 +556,33 @@
                 </button>
                 <h4 class="modal-title" id="myModalLabel">Корзина</h4>
             </div>
-            <form class="form-horizontal">
-
+            <form class="form-horizontal" method="post" action="{{ route('ramka.buy') }}">
+                {{ csrf_field() }}
+                <input type="hidden" name="recipient" name="recipient" value="">
                 <div class="modal-body">
                     <div class="order">
-                        Ваш заказ: рамка RCS
+                        Ваш заказ:
                     </div>
                     <div class="count">
                         <div class="form-group">
                             <label for="count" class="col-sm-2 control-label">Количество</label>
                             <div class="col-sm-10">
-                                <input type="number" class="form-control" id="count" placeholder="Количество" value="1">
+                                <input type="number" class="form-control" name="count" id="count" placeholder="Количество" value="1">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="color" style="display: none">
+                        <div class="form-group">
+                            <label for="color" class="col-sm-2 control-label">Цвет</label>
+                            <div class="col-sm-10">
+                                <select name="color" id="color" class="form-control" required>
+                                    <option value="black">Черная</option>
+                                    <option value="white">Белая</option>
+                                    <option value="yellow">Желтая</option>
+                                    <option value="red">Красная</option>
+                                    <option value="blue">Синяя</option>
+                                    <option value="gray">Серая</option>
+                                </select>
                             </div>
                         </div>
                     </div>
@@ -574,26 +590,28 @@
                         <div class="form-group">
                             <label for="lastName" class="col-sm-2 control-label">Фамилия</label>
                             <div class="col-sm-10">
-                                <input class="form-control" id="lastName" placeholder="Фамилия">
+                                <input class="form-control" name="lastName" id="lastName" placeholder="Фамилия" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="firstName" class="col-sm-2 control-label">Имя</label>
                             <div class="col-sm-10">
-                                <input class="form-control" id="firstName" placeholder="Имя">
+                                <input class="form-control" name="firstName" id="firstName" placeholder="Имя" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="phone" class="col-sm-2 control-label">Телефон</label>
                             <div class="col-sm-10">
-                                <input class="form-control phone-mask" id="phone" placeholder="Телефон">
+                                <input class="form-control phone-mask" name="phone" id="phone" placeholder="Телефон" required>
                             </div>
                         </div>
                     </div>
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Отправить заказ</button>
+                    Итого:
+                    <span class="price"></span><i class="fa fa-rub"></i>
+                    <button class="btn btn-primary">Отправить заказ</button>
                 </div>
             </form>
         </div>
