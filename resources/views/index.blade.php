@@ -9,7 +9,8 @@
     <title>Рамки</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Animate style -->
     <link rel="stylesheet" href="{{!App::environment('local')?'/public':''}}/rus/css/animate.min.css">
@@ -17,13 +18,16 @@
     <!-- Styles for this template -->
     <link rel="stylesheet" href="{{!App::environment('local')?'/public':''}}/rus/css/style.css">
 
+    <link rel="stylesheet" href="{{!App::environment('local')?'/public':''}}/css/jquery.bxslider.min.css">
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="{{!App::environment('local')?'/public':''}}/rus/https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="{{!App::environment('local')?'/public':''}}/rus/https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="icon" href="{{!App::environment('local')?'/public':''}}/rus/img/favicon.ico">
+    <link rel="icon" href="{{!App::environment('local')?'/public':''}}/rus/img/favicon.png">
 </head>
 <body>
 <!-- ***Page Preloader*** -->
@@ -45,7 +49,8 @@
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="video-wrap">
-                    <video src="{{!App::environment('local')?'/public':''}}/rus/video/RCS.mp4" controls="controls"></video>
+                    <video src="{{!App::environment('local')?'/public':''}}/rus/video/RCS.mp4"
+                           controls="controls"></video>
                 </div>
             </div>
         </div>
@@ -61,7 +66,8 @@
             <h2 class="page-header">С этой рамкой Вы будете выделяться на дороге<br>
             </h2>
             <div class="col-md-8">
-                <div class="main-img"><img src="{{!App::environment('local')?'/public':''}}/rus/img/rcs_main3.png" class="img-responsive" alt=""></div>
+                <div class="main-img"><img src="{{!App::environment('local')?'/public':''}}/rus/img/rcs_main3.png"
+                                           class="img-responsive" alt=""></div>
             </div>
             <div class="col-md-4 col-xs-12">
                 <p>
@@ -172,24 +178,28 @@
             <h2>Скриншоты</h2>
             <div class="col-md-6">
                 <div class="media">
-                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr1.jpg" alt=""></div>
+                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr1.jpg"
+                                                  alt=""></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="media">
-                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr3.jpg" alt=""></div>
+                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr3.jpg"
+                                                  alt=""></div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-md-6">
                 <div class="media">
-                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr4.jpg" alt=""></div>
+                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr4.jpg"
+                                                  alt=""></div>
                 </div>
             </div>
             <div class="col-md-6">
                 <div class="media">
-                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr6.jpg" alt=""></div>
+                    <div class="text-center"><img src="{{!App::environment('local')?'/public':''}}/rus/img/scr6.jpg"
+                                                  alt=""></div>
                 </div>
             </div>
         </div>
@@ -206,7 +216,8 @@
             <h2>Отзывы</h2>
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava1.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava1.jpg"
+                                                    alt=""></div>
                     <div class="review-body">
                         <blockquote>
                             Актуальная штука, в связи с участившимися кражами госномеров, но...Ну что можно сказать?
@@ -220,7 +231,8 @@
 
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava2.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava2.jpg"
+                                                    alt=""></div>
                     <div class="review-body">
                         <blockquote>
                             Муж подарил мне автомобиль на день рождения, и меня сразу начала раздражать рамка на
@@ -237,7 +249,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava3.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava3.jpg"
+                                                    alt=""></div>
                     <div class="review-body">
                         <blockquote>
                             В том году у меня украли автомобильный номер. Пришлось заплатить воришкам за возврат…
@@ -251,7 +264,8 @@
             </div>
             <div class="col-md-6">
                 <div class="review-item">
-                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava4.jpg" alt=""></div>
+                    <div class="pull-left ava"><img src="{{!App::environment('local')?'/public':''}}/rus/img/ava4.jpg"
+                                                    alt=""></div>
                     <div class="review-body">
                         <blockquote>
                             У меня свой бизнес, и обращать внимание на детали - моя привычка. Рамка от RCS нравится
@@ -276,106 +290,116 @@
             <h2>Оформить заказ<br>
                 <small>просто, быстро, удобно...</small>
             </h2>
-            {{--<p class="lead text-center">Расскажите о способах оплаты, доставки, о гарантиях и т.д.</p>--}}
-            <!--standart-->
-            <div class="col-md-4 col-xs-12">
+        {{--<p class="lead text-center">Расскажите о способах оплаты, доставки, о гарантиях и т.д.</p>--}}
+        <!--standart-->
+            <div class="col-md-3 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Черная<br><span>1500 руб.</span></h3>
+                        <h3>Силиконовая рамка</h3>
                     </div>
                     <div class="body">
-                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_black.png" alt="">
+                        <div class="wrp">
+                            <ul class="bxslider-avto">
+                                <li><img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_white.png" alt="">
+                                </li>
+                                <li><img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_black.png" alt="">
+                                </li>
+                                <li><img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_blue.png" alt="">
+                                </li>
+                                <li><img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_red.png" alt="">
+                                </li>
+                                <li><img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_yellow.png" alt="">
+                                </li>
+                                <li><img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_gray.png" alt="">
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="title">В рамках прекрасного</li>
+                                <li>Время идет и меняются даже привычные нам вещи. Пора сменить старую рамку госномера
+                                    дизайна 1990 года на новую стильную и современную рамку RCS
+                                </li>
+                            </ul>
+                        </div>
                         <button class="btn btn-block btn-default"
                                 data-toggle="modal"
                                 data-target="#basket"
-                                data-whatever="Черная">
+                                data-whatever="ramka">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
-                            Заказать
+                            1390 <i class="fa fa-rub" aria-hidden="true"></i>
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-3 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Синяя<br><span>1500 руб.</span></h3>
+                        <h3>Пластиковая рамка RCS-light</h3>
                     </div>
                     <div class="body">
-                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_blue.png" alt="">
+                        <div class="wrp">
+                            <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_light.png" alt="">
+                            </ul>
+                            <ul>
+                                <li class="title">Новинка от RCS</li>
+                                <li>Кажется теперь невозможно сделать рамку лучше. Акцент только на вашем номере,
+                                    минимальный кант рамки и дополнительные функции делают рамку новым бестселлером!
+                                </li>
+                            </ul>
+                        </div>
                         <button class="btn btn-block btn-default"
                                 data-toggle="modal"
                                 data-target="#basket"
-                                data-whatever="Синяя">
+                                data-whatever="light">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
-                            Заказать
+                            890 <i class="fa fa-rub"></i>
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-3 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Серая<br><span>1500 руб.</span></h3>
+                        <h3>Магнитный <br>набор</h3>
                     </div>
                     <div class="body">
-                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_gray.png" alt="">
+                        <div class="wrp">
+                            <img src="{{!App::environment('local')?'/public':''}}/rus/img/magnit.png" alt="">
+                            <ul>
+                                <li class="title">Удобнее не придумать!</li>
+                                <li>Забудьте о долгом снятие номера, спите спокойно. Ваш номер будет в безопасности.</li>
+                            </ul>
+                        </div>
                         <button class="btn btn-block btn-default"
                                 data-toggle="modal"
                                 data-target="#basket"
-                                data-whatever="Серая">
+                                data-whatever="magnit">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
-                            Заказать
+                            1790 <i class="fa fa-rub"></i>
                         </button>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-12">
+            <div class="col-md-3 col-xs-12">
                 <div class="price standart">
                     <div class="head">
-                        <h3>Красная<br><span>1500 руб.</span></h3>
+                        <h3>Набор винтов для крепления рамки</h3>
                     </div>
                     <div class="body">
-                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_red.png" alt="">
+                        <div class="wrp">
+                            <img src="{{!App::environment('local')?'/public':''}}/rus/img/vint.png" alt="">
+                            <ul>
+                                <li class="title">Все под рукой!</li>
+                                <li>
+                                    На Ваш выбор - антивандальные или обычные винты для крепления номера.
+                                </li>
+                            </ul>
+                        </div>
                         <button class="btn btn-block btn-default"
                                 data-toggle="modal"
                                 data-target="#basket"
-                                data-whatever="Красная">
+                                data-whatever="vint">
                             <span class="glyphicon glyphicon-shopping-cart"></span>
-                            Заказать
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-xs-12">
-                <div class="price standart">
-                    <div class="head">
-                        <h3>белая<br><span>1500 руб.</span></h3>
-                    </div>
-                    <div class="body">
-                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_white.png" alt="">
-                        <button class="btn btn-block btn-default"
-                                data-toggle="modal"
-                                data-target="#basket"
-                                data-whatever="Белая">
-                            <span class="glyphicon glyphicon-shopping-cart"></span>
-                            Заказать
-                        </button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-xs-12">
-                <div class="price standart">
-                    <div class="head">
-                        <h3>Желтая<br><span>1500 руб.</span></h3>
-                    </div>
-                    <div class="body">
-                        <img src="{{!App::environment('local')?'/public':''}}/rus/img/ramka_yellow.png" alt="">
-                        <button class="btn btn-block btn-default"
-                                data-toggle="modal"
-                                data-target="#basket"
-                                data-whatever="Желтая">
-                            <span class="glyphicon glyphicon-shopping-cart"></span>
-                            Заказать
+                            590 <i class="fa fa-rub"></i>
                         </button>
                     </div>
                 </div>
@@ -383,44 +407,44 @@
 
             {{--<!--premium-->--}}
             {{--<div class="col-md-4 col-xs-12">--}}
-                {{--<div class="price premium">--}}
-                    {{--<div class="head">--}}
-                        {{--<h3>Премиум<br><span>150 руб.</span></h3>--}}
-                    {{--</div>--}}
-                    {{--<div class="body">--}}
-                        {{--<ol>--}}
-                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
-                            {{--<li>Тemo facere rem vitae odit;</li>--}}
-                            {{--<li>Cum odio, iste quia doloribus autem;</li>--}}
-                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
-                            {{--<li>Тemo facere rem vitae odit;</li>--}}
-                        {{--</ol>--}}
-                        {{--<a href="" class="btn btn-block btn-default"><span--}}
-                                    {{--class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+            {{--<div class="price premium">--}}
+            {{--<div class="head">--}}
+            {{--<h3>Премиум<br><span>150 руб.</span></h3>--}}
+            {{--</div>--}}
+            {{--<div class="body">--}}
+            {{--<ol>--}}
+            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+            {{--<li>Тemo facere rem vitae odit;</li>--}}
+            {{--<li>Cum odio, iste quia doloribus autem;</li>--}}
+            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+            {{--<li>Тemo facere rem vitae odit;</li>--}}
+            {{--</ol>--}}
+            {{--<a href="" class="btn btn-block btn-default"><span--}}
+            {{--class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>--}}
+            {{--</div>--}}
+            {{--</div>--}}
             {{--</div>--}}
 
             {{--<!--lux-->--}}
             {{--<div class="col-md-4 col-xs-12">--}}
-                {{--<div class="price lux">--}}
-                    {{--<div class="head">--}}
-                        {{--<h3>Люкс<br><span>200 руб.</span></h3>--}}
-                    {{--</div>--}}
-                    {{--<div class="body">--}}
-                        {{--<ol>--}}
-                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
-                            {{--<li>Тemo facere rem vitae odit;</li>--}}
-                            {{--<li>Cum odio, iste quia doloribus autem;</li>--}}
-                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
-                            {{--<li>Тemo facere rem vitae odit;</li>--}}
-                            {{--<li>Cum odio, iste quia doloribus autem;</li>--}}
-                            {{--<li>Porro officia cumque sint deleniti;</li>--}}
-                        {{--</ol>--}}
-                        {{--<a href="" class="btn btn-block btn-default"><span--}}
-                                    {{--class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
+            {{--<div class="price lux">--}}
+            {{--<div class="head">--}}
+            {{--<h3>Люкс<br><span>200 руб.</span></h3>--}}
+            {{--</div>--}}
+            {{--<div class="body">--}}
+            {{--<ol>--}}
+            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+            {{--<li>Тemo facere rem vitae odit;</li>--}}
+            {{--<li>Cum odio, iste quia doloribus autem;</li>--}}
+            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+            {{--<li>Тemo facere rem vitae odit;</li>--}}
+            {{--<li>Cum odio, iste quia doloribus autem;</li>--}}
+            {{--<li>Porro officia cumque sint deleniti;</li>--}}
+            {{--</ol>--}}
+            {{--<a href="" class="btn btn-block btn-default"><span--}}
+            {{--class="glyphicon glyphicon-shopping-cart"></span> Заказать</a>--}}
+            {{--</div>--}}
+            {{--</div>--}}
             {{--</div>--}}
         </div>
     </div>
@@ -470,19 +494,19 @@
                         <textarea id="message" class="form-control" rows="5" placeholder="Ваше сообщение:"></textarea>
                     </div>
                     <div class="form-group">
-                        <button id="btn" class="btn btn-default" >Отправить</button>
+                        <button id="btn" class="btn btn-default">Отправить</button>
                     </div>
                 </form>
                 <br>
                 <!-- Address -->
-                {{--<div class="col-md-6 col-xs-6 col-sm-6 text-right">--}}
-                    {{--<address>--}}
-                        {{--<strong>Адрес:</strong><br>--}}
-                        {{--Москва<br>--}}
-                        {{--<abbr title="Телефон">Т:</abbr> +7 (913) 333-3308--}}
-                    {{--</address>--}}
-                {{--</div>--}}
-                <!-- Contacts -->
+            {{--<div class="col-md-6 col-xs-6 col-sm-6 text-right">--}}
+            {{--<address>--}}
+            {{--<strong>Адрес:</strong><br>--}}
+            {{--Москва<br>--}}
+            {{--<abbr title="Телефон">Т:</abbr> +7 (913) 333-3308--}}
+            {{--</address>--}}
+            {{--</div>--}}
+            <!-- Contacts -->
                 <div class=" col-xs-12 text-center">
                     <address>
                         <strong>Другие контакты:</strong><br>
@@ -515,7 +539,8 @@
                     <a href=""><i class="ico">v</i></a>
                 </p>
                 <br>
-                <p class="text-center">Copyright &copy; {{ \Carbon\Carbon::now()->format('Y') }} Рамки · <a href="">Рамки</a></p>
+                <p class="text-center">Copyright &copy; {{ \Carbon\Carbon::now()->format('Y') }} Рамки · <a href="">Рамки</a>
+                </p>
             </div>
         </div>
     </div>
@@ -527,7 +552,8 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                </button>
                 <h4 class="modal-title" id="myModalLabel">Корзина</h4>
             </div>
             <form class="form-horizontal">
@@ -576,10 +602,15 @@
 <!-- //modal -->
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src=" https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="https://use.fontawesome.com/8fc174d1a6.js"></script>
+
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.inview.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/detectmobilebrowser.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/rus/js/jquery.placeholder.js"></script>
+<script src="{{!App::environment('local')?'/public':''}}/js/jquery.bxslider.min.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/js/inputmask/inputmask.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/js/inputmask/inputmask.extensions.js"></script>
 <script src="{{!App::environment('local')?'/public':''}}/js/inputmask/inputmask.numeric.extensions.js"></script>

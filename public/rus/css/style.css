@@ -442,15 +442,26 @@ a:hover .ico {
   text-shadow: none;
   border-radius: 0 0 5px 5px;
 }
-
+.buy .price .wrp {
+  min-height: 280px;
+}
 .buy .price img {
     width: 100%;
 }
-.buy .price ol {
-    list-style: none;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 22px;
+.buy .price ul{
+  margin:5px;
+  padding: 5px;
+}
+.buy .price .title {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.buy .price li {
+  list-style: none;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 12px;
 }
 
 /*Contacts*/
@@ -569,7 +580,11 @@ a:hover .ico {
 
 }
 
-
-
-
-
+.bx-pager {
+  display: none;
+}
+.bx-wrapper {
+  border: none !important;
+  box-shadow: none !important;
+  margin-bottom: 17px !important;
+}

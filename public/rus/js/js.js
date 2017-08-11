@@ -37,4 +37,10 @@ jQuery(document).ready(function($) {
     });
     $('.email-mask').inputmask({ alias: "email"})
 
+    $('.bxslider-avto').bxSlider({
+        auto: true,
+    });
+    $('.bxslider').bxSlider({
+    });
+
 });
