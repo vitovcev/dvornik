@@ -21,3 +21,6 @@ Route::post('/ramka/buy', 'Ramka\RamkaController@buy')->name('ramka.buy');
 
 Route::get('/test', 'Ramka\RamkaController@test');
 
+
+Auth::routes();
+
