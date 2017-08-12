@@ -44,9 +44,11 @@ jQuery(document).ready(function($) {
             count.on('change input', function () {
                 var price = 1390 * count.val();
                 modal.find('.price').text(price);
+                modal.find('.priceToTal').val(price);
 
             });
             modal.find('.price').text('1390');
+            modal.find('.priceTotal').val('1390');
         }
         else if (recipient == 'light') {
             $('.color').hide();
@@ -55,9 +57,11 @@ jQuery(document).ready(function($) {
             count.on('change input', function () {
                 var price = 890 * count.val();
                 modal.find('.price').text(price);
+                modal.find('.priceTotal').val(price);
 
             });
             modal.find('.price').text('890');
+            modal.find('.priceTotal').val('890');
         }
         else if (recipient == 'magnit') {
             $('.color').hide();
@@ -66,9 +70,11 @@ jQuery(document).ready(function($) {
             count.on('change input', function () {
                 var price = 1790 * count.val();
                 modal.find('.price').text(price);
+                modal.find('.priceTotal').val(price);
 
             });
             modal.find('.price').text('1790');
+            modal.find('.priceTotal').val('1790');
         }
         else if (recipient == 'vint') {
             $('.color').hide();
@@ -77,9 +83,11 @@ jQuery(document).ready(function($) {
             count.on('change input', function () {
                 var price = 1790 * count.val();
                 modal.find('.price').text(price);
+                modal.find('.priceTotal').val(price);
 
             });
             modal.find('.price').text('1790');
+            modal.find('.priceTotal').val('1790');
         }
     });
 
