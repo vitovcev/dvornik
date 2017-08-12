@@ -30,6 +30,8 @@
     <link rel="icon" href="{{!App::environment('local')?'/public':''}}/rus/img/favicon.png">
 </head>
 <body>
+
+<a href="/test">Специально для техподдержки</a>
 <!-- ***Page Preloader*** -->
 {{--<div id="page-preloader"><span class="spinner"></span></div>--}}
 

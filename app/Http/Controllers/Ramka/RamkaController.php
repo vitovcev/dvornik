@@ -23,6 +23,6 @@ class RamkaController extends Controller
 
     public function test()
     {
-        dd(123);
+        return ('it\'s work');
     }
 }
